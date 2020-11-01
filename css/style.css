@@ -1,3 +1,28 @@
-body{
+* {
+    margin: 3px;
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    font-family: 'Lato', sans-serif;
+}
+
+.cabecera {
+    background-color: #181818;
+    text-align: center;
+    color: #f9f9f9;
+    height: 110%;
+    margin-bottom: 2em;
+}
+
+/* ***Adaptar video a vista movil... */
+#videoPhishing {
+    width: 560px;
+    height: 315px;
+}
+
+h2 {
+    margin-left: 1em;
+    margin-bottom: 0.7em;
+}
+
+body {
     background-color: #f9f9f9;
 }
