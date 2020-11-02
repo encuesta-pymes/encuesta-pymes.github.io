@@ -33,12 +33,6 @@ body {
     float: right;
 }
 
-p, a {
-    margin-left: 1.5em;
-    margin-bottom: 1em;
-    margin-right: 1em;
-}
-
 .videoP {
     text-align: right;
     height: auto;
@@ -50,6 +44,21 @@ p, a {
     text-align: center;
     width: 560px;
     height: 315px;
+}
+
+a{
+    color: blue;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+a:visited{
+    color: red;
+}
+
+p, a {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    margin-right: 1em;
 }
 
 h2 {
