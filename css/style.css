@@ -21,6 +21,7 @@ body {
     margin-bottom: 2em;
     border-radius: 25px;
     padding: 1%;
+    filter: drop-shadow(5px 5px 2px #4d4d4d);
 }
 
 .content, .test {
@@ -46,13 +47,26 @@ body {
     height: 315px;
 }
 
-a{
+a {
     color: blue;
-    filter: drop-shadow(0 0 0.75rem crimson);
+    filter: drop-shadow(5px 5px 2px #050404);
 }
 
-a:visited{
-    color: red;
+.enlaces {
+    background-color: #050404;
+    color: #eaeaea;
+    width: max-content;
+    text-decoration: none;
+    margin-left: 1.5em;
+    padding: 0.5em;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.enlaces:hover {
+    background-color: #eaeaea;
+    color: #050404;
 }
 
 p, a {
@@ -78,12 +92,10 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
-
     #videoPhishing {
         width: inherit;
         height: fit-content;
     }
-
     .videoP {
         text-align: center;
         width: 95%;
@@ -92,7 +104,6 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
-    
     p {
         margin-bottom: 0.5em;
     }
